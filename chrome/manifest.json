@@ -1,0 +1,23 @@
+{
+  "name": "KloteKnol",
+	"manifest_version":2,
+  "version": "0.1",
+  "description": "anti-enzoknolinrichting",
+  "icons": {  },
+  "content_scripts": [
+    {
+      "js":[ "removeenzoknol.js"],
+      "matches": [
+	"http://www.youtube.com/*", 
+	"http://youtube.com/*", 
+	"http://youtube.nl/*", 
+	"http://www.youtube.nl/*",
+	"https://www.youtube.com/*", 
+	"https://youtube.com/*", 
+	"https://youtube.nl/*", 
+	"https://www.youtube.nl/*"
+	]
+ 
+    }
+  ]
+}
